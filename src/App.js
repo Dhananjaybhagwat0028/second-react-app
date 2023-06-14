@@ -1,17 +1,19 @@
-//Interpolation :- means data binding in jsx
+
 
 // interpolation using object literal
 
 function App() {
-  let admin = {id:21 ,name:"dhananjay"};
+  let id = "p1";
+  let str = "never give up"
   
   return (
     <>
-      
-      <h1>
-        ID : {admin.id} <br />
-        Name : {admin.name}
-      </h1>
+      <h1 id="p1">hello jerry</h1>
+      <h1 id={"p1"}>hello tom</h1>
+      <h1 id={"p1"}>hello nick</h1>
+      <h1 id={`p1`}>hello chris</h1>
+      <h1 id={'p1'}> {str}</h1>
+      <h1 id={'p1'}> {id}</h1>
     </>
   );                
 }
