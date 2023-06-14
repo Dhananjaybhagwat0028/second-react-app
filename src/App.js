@@ -1,17 +1,20 @@
-// is this working in your system ??
-// AUTO SUGGESTION FEATURE ??
-// Auto Formatting. Prettier.
+//Interpolation :- means data binding in jsx
+
+
 function App() {
+  let str = `Hello world`;
+
   return (
     <>
-      <h1>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolores
-        dolore quam nulla repellendus. Voluptatibus ullam dolorum asperiores
-        beatae dolor, inventore, ducimus corporis esse aspernatur, perferendis
-        ratione id tempore facere?
-      </h1>
-    </>
-  );
-}
+      {/** i am comment  */}
 
+      <h1>HELLO WORLD</h1>
+      <h1>{str}</h1>
+      <h1>str</h1>
+      <h1>{str.toLowerCase()}</h1>
+      <h1>{str.toUpperCase()}</h1>
+      <h1>{str.substring(2, 9)}</h1>
+    </>
+  );                
+}
 export default App;
